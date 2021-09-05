@@ -1,0 +1,83 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Times New Roman', Times, serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    min-width: 400px;
+    background-color: red;
+}
+.app {
+    position: relative;
+    width: 305px;
+    height: 600px;
+    background: url(./Images/cloud.jpg) no-repeat center center/cover rgba(0,0,0,0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    padding: 60px 0px 20px 0px ; 
+}
+header input {
+    height: 30px;
+    width: 240px;
+    letter-spacing: 1px;
+    padding: 0px 10px;
+    border-radius: 10px 0px 10px 0px;
+    background: rgba(255, 255, 255, 0.6);
+    color: black;
+    font-weight: 200;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+}
+.location {
+    position: relative;
+    padding: 20px 0px ;
+    width: 300px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+.area {
+    font-size: 23px;
+    font-style: italic;
+    padding: 15px 0px 4px 0px ;
+    background-color: rgba(0,0,0,0.);
+    font-weight: 600;
+}
+.date {
+    font-size: 20px;
+    font-style: italic;
+    padding: 0px 0px 0px 0px ;
+    font-weight: 600;
+}
+.degree {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 600;
+    text-shadow: 0px 5px rgba(255, 255, 255, 0.4);
+    font-weight: 800;
+    padding: 30px 0px ;
+}
+.type {
+    font-weight: 500;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 23px;
+}
+.range {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0px;
+}
