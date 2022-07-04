@@ -15,15 +15,15 @@ body {
 }
 .app {
     position: relative;
-    width: 305px;
-    height: 600px;
+    width: 100%;
+    height: 100%;
     background: url(./Images/cloud.jpg) no-repeat center center/cover rgba(0,0,0,0.9);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 header {
-    padding: 60px 0px 20px 0px ; 
+    padding: 25vh 0px 20px 0px ; 
 }
 header input {
     height: 30px;
