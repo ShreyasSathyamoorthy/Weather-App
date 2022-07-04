@@ -41,6 +41,10 @@ function change(c) {
         app.style.background = " url(./Images/sunny.jpg) no-repeat center center/cover rgba(0,0,0,0.9)";
         document.querySelector(".location").style.color = "black";
     }
+    else if (c=="Overcast clouds") {
+        app.style.background = " url(./Images/sunny.jpg) no-repeat center center/cover rgba(0,0,0,0.9)";
+        document.querySelector(".location").style.color = "black";
+    }
     else {
         app.style.background = " url(./Images/cloud.jpg) no-repeat center center/cover rgba(0,0,0,0.9)";
     }
